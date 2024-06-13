@@ -28,7 +28,7 @@ namespace Travel_Notifications.Controllers
         }
 
         //Get Notification By ID
-        [HttpGet("get_by_id")]
+        [HttpGet("get_byid")]
         public IActionResult GetNotification(int notificationId) 
         {
             return Ok(_notificationService.GetNotificationById(notificationId));
